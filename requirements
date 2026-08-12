@@ -1,0 +1,20 @@
+# --- Brain ---
+anthropic
+
+# --- Voice: speech-to-text ---
+openai-whisper
+pyaudio          # mic input (may need `brew install portaudio` first on Mac)
+
+# --- Voice: wake word ---
+pvporcupine
+
+# --- Google APIs (Gmail + Calendar) ---
+google-api-python-client
+google-auth-httplib2
+google-auth-oauthlib
+
+# --- Utilities ---
+python-dotenv     # loads .env file for API keys
+
+# --- Optional: menu bar app wrapper (add later) ---
+# rumps
