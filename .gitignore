@@ -1,0 +1,16 @@
+# Secrets — never commit these
+.env
+credentials.json
+token.json
+*.pem
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
+
+# Data
+todo_list.json
